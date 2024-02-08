@@ -1,0 +1,78 @@
+.E-font {
+    color: #810000;
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: xx-large;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+  .message {
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#date {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: 3vh;
+}
+
+  #sig {
+    font-family: "Qwigley", cursive;
+    font-size: 3vh;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    display: flex; 
+    flex-wrap: row wrap;
+    columns: 3 auto;
+}
+
+.col-1 {
+    width: 33.33%;
+    height: 100vh;
+    float: left;
+    padding: 10px;
+}
+
+.col-2 {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+
+.col-3 {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+
+.goldLeft {
+    transform: scaleX(-1);
+}
+
+.signage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+  .border {
+    width: 10rem;
+    border: 30px solid;
+    padding: 2rem;
+    border-image: url(images/soSordid.png) 25 round;
+  }
+
+  .certificate {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .fire {
+    height: 10vh;
+  }
+
