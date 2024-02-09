@@ -5,26 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Certificate</title>
+    <script src="interest.js"></script>
     <link rel="stylesheet" href="insane.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crosborderigin>
 <link href="https://fonts.googleapis.com/css2?family=Keania+One&family=Protest+Guerrilla&family=Qwigley&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <section class="col-1">
-        <img src="images/goldMedalRippin.png" 
-        class="goldLeft" alt="Gold and green ribbon">
-        <img src="images/-rightangle.png" alt="Triangular graphic">
+        <img id="l-decor" src="images/decor-left.png" alt="Circular and triangular decorations">
         <section class="signage">
-            <h3 id="date">Date: [##/##/##]</h3>
+            <h3 id="date">Date: <input type="date" value="##/##/##"></h3>
             <h3 id="sig">Signature: [____________]</h3>
         </section>
     </section>
         <section class="col-2">
             <section class="Border">
-                <h1 class="E-font">The Certificate of Epicness</h1>
-                <img src="images/fireflyFire.png" class="fire" alt="An illustrated image of an
+                <h1 class="E-font">The Certificate of </h1>
+                <select name="type" id="type">
+                    <option value="Epicness">Epicness</option>
+                    <option value="cert">Certificial Certificationism</option>
+                    <option value="Prof">Profffessionall WRASSLING</option>
+                </select>
+                <img src="images/fireflyFire.png" class="fire" alt="An ill illustrated image of an
             impeccable flame alit.">
                 <img src="images/fireflyFire.png" class="fire" alt="An illustrated image of an
             impeccable flame alit.">
@@ -32,11 +36,15 @@
 
             <section class="message">
                 <h2>PROUDLY PRESENTED TO</h2>
-                <p>[Insert Name]</p> <button>Accept</button>
+                <input type="text" name="name" id="name" placeholder="Insert name"> <button>Accept</button>
             </section>
 
+            <img src="images/gold-MedalRippin.png" id="medal" alt="Gold and green ribbon">
+
             <section class="message">
-                <h2>CONGRATULATIONS [friend//pal/chum] You’ve earned the biggest
+                <h2>CONGRATULATIONS <input type="text" name="nam" id="nam" placeholder="[friend//pal/chum]">
+                 
+                     You’ve earned the biggest
                     achievement ever. Nothing will top this.
                     You have peaked early from this alone.
                 </h2>
@@ -45,9 +53,8 @@
         </section>
 
         <section class="col-3">
-            <img src="images/goldMedalRippin.png" alt="Gold and green ribbon">
-            <img src="images/-sideGrave.png" alt="Circular graphic">
-            <img src="images/-sideGrave.png" alt="Circular graphic">
+            <img src="images/decor-right.png" alt="Circular and triangular decorations">
+            <img src="images/-sideGrave.png" id="sideg" alt="Circular graphic">
         </section>
 
 

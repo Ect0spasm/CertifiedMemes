@@ -14,7 +14,7 @@
 
 #date {
     font-family: "UnifrakturMaguntia", cursive;
-    font-size: 3vh;
+    font-size: 3rem;
 }
 
   #sig {
@@ -22,7 +22,13 @@
     font-size: 3vh;
     font-weight: 400;
     font-style: normal;
-  }
+  };
+
+#angle {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
 
 body {
     display: flex; 
@@ -35,6 +41,10 @@ body {
     height: 100vh;
     float: left;
     padding: 10px;
+}
+
+#sideg {
+  
 }
 
 .col-2 {
@@ -63,7 +73,7 @@ body {
     width: 10rem;
     border: 30px solid;
     padding: 2rem;
-    border-image: url(images/soSordid.png) 25 round;
+    border-image: url(images/blackLine.png) 25 round ;
   }
 
   .certificate {
